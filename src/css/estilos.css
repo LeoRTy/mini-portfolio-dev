@@ -85,6 +85,12 @@ body{
     display: none
 }
 
+.informacoes-abas .projects {
+    min-height: 260px;
+    padding: 15px;
+    display: none
+}
+
 .informacoes-abas .informacao.selecionada{
     display: block;
 }
@@ -102,7 +108,18 @@ body{
     padding-right: 15px;
 }
 
+.informacoes-abas .aba .projects{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
 .informacoes-abas .descricao span{
+    color: #02d08f;
+}
+
+.informacoes-abas .informacao span{
     color: #02d08f;
 }
 
@@ -147,3 +164,9 @@ body{
     border-radius: 50px;
 }
 
+.informacoes-abas .projects{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 15px;
+}

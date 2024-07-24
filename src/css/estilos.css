@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../imagens/fundo-site1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@ body{
     padding: 30px;
 }
 
-.cartao{
+.cartao {
     background-color: #070d12;
     width: 370px;
     border: 2px solid #00FF00;
@@ -22,11 +22,11 @@ body{
     overflow: hidden;
 }
 
-.cartao .abas img{
+.cartao .abas img {
     width: 30px;
 }
 
-.cartao .minhas-informacoes{
+.cartao .minhas-informacoes {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -34,31 +34,31 @@ body{
     gap: 10px;
 }
 
-.cartao .minhas-informacoes img{
+.cartao .minhas-informacoes img {
     width: 96px;
     height: 96px;
     border-radius: 50px;
     border: 4px solid #02d08f;
 }
 
-.cartao .minhas-informacoes .nome{
+.cartao .minhas-informacoes .nome {
     font-size: 26px;
 }
 
-.cartao .minhas-informacoes .cargo{
+.cartao .minhas-informacoes .cargo {
     font-size: 20px;
     color: #b8bbc5;
 }
 
-.cartao .conteudo{
+.cartao .conteudo {
     margin-top: 15px;
 }
 
-.cartao .abas{
+.cartao .abas {
     display: flex;
 }
 
-.cartao .abas .aba{
+.cartao .abas .aba {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -67,15 +67,15 @@ body{
     transition: background-color 0.2s ease-in-out;
 }
 
-.cartao .abas .aba.selecionada{
+.cartao .abas .aba.selecionada {
     background-color: #262626;
 }
 
-.cartao .informacoes-abas{
+.cartao .informacoes-abas {
     background-color: #262626;
 }
 
-.cartao .abas .aba:hover{
+.cartao .abas .aba:hover {
     background-color: #414141;
 }
 
@@ -91,47 +91,47 @@ body{
     display: none
 }
 
-.informacoes-abas .informacao.selecionada{
+.informacoes-abas .informacao.selecionada {
     display: block;
 }
 
-.informacoes-abas .sub-titulo{
+.informacoes-abas .sub-titulo {
     font-size: 22px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-.informacoes-abas .descricao{
+.informacoes-abas .descricao {
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
 }
 
-.informacoes-abas .aba .projects{
+.informacoes-abas .aba .projects {
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
 }
 
-.informacoes-abas .descricao span{
+.informacoes-abas .descricao span {
     color: #02d08f;
 }
 
-.informacoes-abas .informacao span{
+.informacoes-abas .informacao span {
     color: #02d08f;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
     max-height: 180px;
-    overflow-y: auto;
 }
-.redes-sociais li a{
+
+.redes-sociais li a {
     background-color: red;
     width: 250px;
     display: block;
@@ -142,29 +142,36 @@ body{
     transition: opacity 0.3s ease-in-out;
 }
 
-.redes-sociais li a:hover{
+.redes-sociais li a:hover {
     opacity: 0.8;
 }
 
-.redes-sociais .curriculo{
+.redes-sociais .curriculo {
     background-color: #06c185;
     border: 2px solid #070d12;
     border-radius: 50px;
 }
 
-.redes-sociais .linkedin{
+.redes-sociais .linkedin {
     background-color: #1d87bd;
     border: 2px solid #070d12;
     border-radius: 50px;
 }
 
-.redes-sociais .github{
+.redes-sociais .github {
     background-color: #545454;
     border: 2px solid #070d12;
     border-radius: 50px;
 }
 
-.informacoes-abas .projects{
+.informacoes-abas .projects {
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.meus-projetos {
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
